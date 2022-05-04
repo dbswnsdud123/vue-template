@@ -1,7 +1,7 @@
 export const AStore = {
   namespaced: true,
   state: () => ({
-    apiData: {},
+    randomText: "",
   }),
   mutations: {
     mutate(state: any, payload: any[]) {

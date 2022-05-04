@@ -1,0 +1,131 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tsyinge
+
+PATH: 
+  C:\Users\Admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tsyinge: Not found
+      at Request.params.callback [as _callback] (C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "vue-template",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "test": "vue-cli-service test:unit",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.27.2",
+      "core-js": "^3.8.3",
+      "jest-ts-auto-mock": "^2.1.0",
+      "register-service-worker": "^1.7.2",
+      "ts-auto-mock": "^3.6.0",
+      "vue": "^3.2.13",
+      "vue-class-component": "^8.0.0-0",
+      "vue-router": "^4.0.3",
+      "vuex": "^4.0.0",
+      "vuex-class": "^0.3.2"
+    },
+    "devDependencies": {
+      "@types/jest": "^27.0.1",
+      "@types/lodash": "^4.14.182",
+      "@typescript-eslint/eslint-plugin": "^5.4.0",
+      "@typescript-eslint/parser": "^5.4.0",
+      "@vue/cli-plugin-babel": "~5.0.0",
+      "@vue/cli-plugin-eslint": "~5.0.0",
+      "@vue/cli-plugin-pwa": "~5.0.0",
+      "@vue/cli-plugin-router": "~5.0.0",
+      "@vue/cli-plugin-typescript": "~5.0.0",
+      "@vue/cli-plugin-unit-jest": "~5.0.0",
+      "@vue/cli-plugin-vuex": "~5.0.0",
+      "@vue/cli-service": "~5.0.0",
+      "@vue/eslint-config-typescript": "^9.1.0",
+      "@vue/test-utils": "^2.0.0-0",
+      "@vue/vue3-jest": "^27.0.0-alpha.1",
+      "babel-jest": "^27.0.6",
+      "eslint": "^7.32.0",
+      "eslint-plugin-vue": "^8.0.3",
+      "jest": "^27.0.5",
+      "sass": "^1.32.7",
+      "sass-loader": "^12.0.0",
+      "ts-jest": "^27.0.4",
+      "ttypescript": "^1.5.13",
+      "typescript": "~4.5.5"
+    },
+    "jest": {
+      "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel",
+      "transform": {
+        ".(ts|tsx)": "ts-jest",
+        "^.+\\.jsx?$": "babel-jest"
+      },
+      "globals": {
+        "ts-jest": {
+          "compiler": "ttypescript"
+        }
+      },
+      "setupFiles": [
+        "<rootDir>config.ts"
+      ]
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/vue3-essential",
+        "eslint:recommended",
+        "@vue/typescript/recommended"
+      ],
+      "parserOptions": {
+        "ecmaVersion": 2020
+      },
+      "rules": {},
+      "overrides": [
+        {
+          "files": [
+            "**/__tests__/*.{j,t}s?(x)",
+            "**/tests/unit/**/*.spec.{j,t}s?(x)"
+          ],
+          "env": {
+            "jest": true
+          }
+        }
+      ]
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead",
+      "not ie 11"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
